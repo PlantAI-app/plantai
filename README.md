@@ -1,7 +1,7 @@
 # PlantAI <img src="img/PlantAI.png" align="right" width="240" />
 
 
-# Visão Geral
+## Visão Geral
 
 A identificação de espécies de plantas em extinção é uma tarefa importante, porém complexa. O projeto Lista Vermelha existe para catalogar a lista de plantas classificadas em diferentes níveis de ameaça e conta com uma equipe composta por profissionais responsáveis em avaliar o risco de extinção de espécies da flora brasileira. Ainda assim, devido à diversidade e à similaridade contida nos biomas brasileiros, a identificação correta de plantas não é uma tarefa trivial. Os avanços tecnológicos vieram contribuir neste sentido, tornando possível a obtenção de um grande volume de dados de diferentes fontes, o que motivou este trabalho a apresentar um aplicativo protótipo instruído para classificar plantas com diferentes níveis de ameaça da Mata Atlântica, e mapeá-las de forma colaborativa. Uma Rede Neural Convolucional foi treinada com amostras aumentadas de diferentes espécies de plantas, utilizando a técnica de transferência de aprendizado em diferentes blocos de convolução do modelo MobileNet, e é utilizada para a classificação online de imagens coletadas com o aplicativo. Os experimentos foram realizados no município de Jacareí-SP. Para as duas espécies avaliadas, Araucária e Pitanga, obteve-se a acurácia superior a 90%.
 
@@ -21,7 +21,7 @@ O aplicativo PlantAI utiliza duas frentes tecnológicas para o seu funcionamento
 
 Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação e localização de plantas em risco de extinção na Mata Atlântica](https://doi.org/10.5753/wcama.2020.11014)
 
-# Guia de instalação
+## Guia de instalação
 
 1. Instale o java e os complementos listados abaixo (versões recomendadas):
     - openjdk-13-jre-headless
@@ -63,8 +63,8 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
     7.1 Esse arquivo já está presente na estrutura de diretório ([aqui]()), apenas adicione as informações
     contidas no mesmo.
     
-# Agradecimentos
+## Agradecimentos
 Aos professores Giuliano Bertoti e Rafael Santos, e aos colegas de laboratório Amita Muralikrishna, Felipe Carlos, Adriano Almeida e Helvecio L. Neto.
 
-# Contribuições
+## Contribuições
 Sinta-se à vontade para contribuir com o aplicativo. Em caso de dúvidas, adicione [Issues](colocar link) e/ou entre em contate por email: lipecaso@gmail.com
