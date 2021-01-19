@@ -24,10 +24,10 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
 ## Guia de instalação
 
 1. Instale o java e os complementos listados abaixo (versões recomendadas):
-    - openjdk-13-jre-headless
-    - openjdk-13-jdk
-    - sdk version 30
-    - build tools 30.0.3	
+	- openjdk-13-jre-headless
+	- openjdk-13-jdk
+	- sdk version 30
+	- build tools 30.0.3	
 	
 2. Bibliotecas necessárias para Linux 64 bits
 
@@ -36,7 +36,7 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
 ```
  
 3. Crie uma conta Google e abra o [Google Console API](https://console.developers.google.com):
-    - 3.1 Crie um novo projeto;
+	- 3.1 Crie um novo projeto;
 	- 3.2 Ative a biblioteca [Maps SDK for Android](https://developers.google.com/maps/documentation/android-sdk)
 	    - 3.2.1 Gere a chave da API para usar no aplicativo
 	- 3.3 Insira a chave gerado no arquivo [AndroidManifest](https://github.com/PlantAI-app/plantai/blob/master/app/src/main/AndroidManifest.xml#L36)
@@ -44,23 +44,23 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
 > Com isso, o nosso mapa está pronto para ser inicializado. Agora vamos criar o banco de dados e a autenticação via Firebase.
 
 4. Crie um projeto [Firebase](https://firebase.google.com):
-    - 4.1 Vincule o projeto Firebase com o projeto criado no [Google Console](https://console.developers.google.com)
-    - 4.2 Com isso, vá nas configurações do projeto e vincule o projeto Firebase com o aplicativo PlantAI:
-        - 4.2.1 Inclua no campo **Nome do Pacote**, o seguinte caminho: **com.br.plantai**
-        - 4.2.2 Gere o certificado SHA1 para registrar no campo 'Certificado de assinatura':
-            - Em Linux, use: 
-            ```keytool -list -v -alias androiddebugkey -keystore /home/$USER_NAME$/.android/debug.keystore```
+	- 4.1 Vincule o projeto Firebase com o projeto criado no [Google Console](https://console.developers.google.com)
+	- 4.2 Com isso, vá nas configurações do projeto e vincule o projeto Firebase com o aplicativo PlantAI:
+		- 4.2.1 Inclua no campo **Nome do Pacote**, o seguinte caminho: **com.br.plantai**
+		- 4.2.2 Gere o certificado SHA1 para registrar no campo 'Certificado de assinatura':
+			- Em Linux, use: 
+			```keytool -list -v -alias androiddebugkey -keystore /home/$USER_NAME$/.android/debug.keystore```
 	
 5. Crie um banco de dados [Firebase Realtime Database](https://firebase.google.com/docs/database) para armazenar os metadados de localização:
-    - 5.1 Localização: **us-central1**
-    - 5.2 Adicione nas regras do banco de dados: `auth != null` para os campos **.read** e **.write**
+	- 5.1 Localização: **us-central1**
+	- 5.2 Adicione nas regras do banco de dados: `auth != null` para os campos **.read** e **.write**
 
 6. Para criar o login, ative a autenticação via [Firebase Authentication](https://firebase.google.com/docs/auth):
-    - 6.1 Selecione as opções de login via email/senha e Google
-        - 6.1.1 Para a opção de email Google é necessário adicionar o email do projeto ou pessoal
+	- 6.1 Selecione as opções de login via email/senha e Google
+		- 6.1.1 Para a opção de email Google é necessário adicionar o email do projeto ou pessoal
         
 7. Por fim, vá nas configurações do projeto e baixe o arquivo `google-services.json`:
-    - 7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json)), apenas adicione as informações contidas no mesmo.
+	- 7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json)), apenas adicione as informações contidas no mesmo.
     
 ## Agradecimentos
 Aos professores Giuliano Bertoti e Rafael Santos, e aos colegas de laboratório Amita Muralikrishna, Felipe Carlos, Adriano Almeida e Helvecio L. Neto.
