@@ -52,16 +52,15 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
 	        ```keytool -list -v -alias androiddebugkey -keystore /home/$USER_NAME$/.android/debug.keystore```
 	
 5. Crie um banco de dados [Firebase Realtime Database](https://firebase.google.com/docs/database) para armazenar os metadados de localização:
-	5.1 Localização: **us-central1**
-	5.2 Adicione nas regras do banco de dados: `auth != null` para os campos **.read** e **.write**
+	- 5.1 Localização: **us-central1**
+	- 5.2 Adicione nas regras do banco de dados: `auth != null` para os campos **.read** e **.write**
 
 6. Para criar o login, ative a autenticação via [Firebase Authentication](https://firebase.google.com/docs/auth):
-    6.1 Selecione as opções de login via email/senha e Google
-    	6.1.1 Para a opção de email Google é necessário adicionar o email do projeto ou pessoal
+    - 6.1 Selecione as opções de login via email/senha e Google
+    	- 6.1.1 Para a opção de email Google é necessário adicionar o email do projeto ou pessoal
         
 7. Por fim, vá nas configurações do projeto e baixe o arquivo `google-services.json`:
-    7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json)), apenas adicione as informações
-    contidas no mesmo.
+    - 7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json)), apenas adicione as informações contidas no mesmo.
     
 ## Agradecimentos
 Aos professores Giuliano Bertoti e Rafael Santos, e aos colegas de laboratório Amita Muralikrishna, Felipe Carlos, Adriano Almeida e Helvecio L. Neto.
