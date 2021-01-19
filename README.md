@@ -39,7 +39,7 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
     - 3.1 Crie um novo projeto;
 	- 3.2 Ative a biblioteca [Maps SDK for Android](https://developers.google.com/maps/documentation/android-sdk)
 	    - 3.2.1 Gere a chave da API para usar no aplicativo
-	- 3.3 Insira a chave gerado no arquivo [AndroidManifest](colocar link da linha)
+	- 3.3 Insira a chave gerado no arquivo [AndroidManifest](https://github.com/PlantAI-app/plantai/blob/master/app/src/main/AndroidManifest.xml#L36)
 
 > Com isso, o nosso mapa está pronto para ser inicializado. Agora vamos criar o banco de dados e a autenticação via Firebase.
 
@@ -60,11 +60,11 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
     	6.1.1 Para a opção de email Google é necessário adicionar o email do projeto ou pessoal
         
 7. Por fim, vá nas configurações do projeto e baixe o arquivo `google-services.json`:
-    7.1 Esse arquivo já está presente na estrutura de diretório ([aqui]()), apenas adicione as informações
+    7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json), apenas adicione as informações
     contidas no mesmo.
     
 ## Agradecimentos
 Aos professores Giuliano Bertoti e Rafael Santos, e aos colegas de laboratório Amita Muralikrishna, Felipe Carlos, Adriano Almeida e Helvecio L. Neto.
 
 ## Contribuições
-Sinta-se à vontade para contribuir com o aplicativo. Em caso de dúvidas, adicione [Issues](colocar link) e/ou entre em contate por email: lipecaso@gmail.com
+Sinta-se à vontade para contribuir com o aplicativo. Em caso de dúvidas, adicione [Issues](https://github.com/PlantAI-app/plantai/issues) e/ou entre em contate por email: lipecaso@gmail.com
