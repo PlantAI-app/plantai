@@ -60,7 +60,7 @@ Para mais informações, veja o artigo: [PlantAI: Aplicativo de classificação 
     	6.1.1 Para a opção de email Google é necessário adicionar o email do projeto ou pessoal
         
 7. Por fim, vá nas configurações do projeto e baixe o arquivo `google-services.json`:
-    7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json), apenas adicione as informações
+    7.1 Esse arquivo já está presente na estrutura de diretório ([aqui](https://github.com/PlantAI-app/plantai/blob/master/app/google-services.json)), apenas adicione as informações
     contidas no mesmo.
     
 ## Agradecimentos
