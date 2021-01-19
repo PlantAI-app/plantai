@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffff"
+    tools:context="com.br.plantai.activity.CameraActivity">
+
+    <com.wonderkiln.camerakit.CameraView
+        android:id="@+id/cameraView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="center|top" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewResult"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:layout_height="80dp"
+            android:fadeScrollbars="false"
+            android:gravity="center"
+            android:maxLines="15"
+            android:scrollbars="vertical"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnToggleCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="top|right"
+        android:layout_marginRight="-1dp"
+        android:src="@drawable/ic_switch_camera"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/btnDetectObject"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_take_camera"
+        android:layout_marginBottom="4dp"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/ic_map"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/ic_mapa_icon" />
+
+    <ImageView
+        android:id="@+id/ic_classify"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ic_classificador" />
+
+</FrameLayout>

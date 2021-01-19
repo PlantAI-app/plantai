@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PlantAI</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_login">Tela de Login</string>
+    <string name="sign_out">Sair</string>
+    <string name="toggle_camera">Girar a Camera</string>
+    <string name="detect_object">Classificar a Planta</string>
+    <string name="search_text">Procure por lugares</string>
+</resources>
